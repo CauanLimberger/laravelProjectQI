@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $users = DB::table('users')->get();
+
 
 
     return view('welcome');
